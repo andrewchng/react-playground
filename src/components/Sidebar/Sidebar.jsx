@@ -1,5 +1,6 @@
 import { BsPlus, BsLightningFill, BsGearFill } from "react-icons/bs"
 import { FaFire, FaPoo } from "react-icons/fa"
+import './Sidebar.css'
 
 export default function Sidebar(){
     return  (

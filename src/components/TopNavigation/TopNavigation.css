@@ -1,0 +1,40 @@
+
+.top-navigation {
+  @apply flex
+   justify-evenly
+   w-full
+   items-center
+   shadow-lg
+   h-16
+  text-white   
+}
+
+.title-hashtag{
+    @apply
+    text-lg
+    tracking-wider
+    font-semibold
+    ml-2
+}
+
+.title-text{
+    @apply
+    mr-auto
+    ml-2
+    mx-auto
+    text-lg
+    font-semibold
+} 
+
+.title-hashtag {
+    @apply text-lg tracking-wider font-semibold text-gray-500 
+    ml-2 my-auto;
+  }
+
+.top-navigation-icon{
+    @apply
+    mr-3 ml-4
+    hover:text-pink-400
+    cursor-pointer
+    transition duration-300 ease-in-out
+}
