@@ -45,6 +45,7 @@
   items-center  
   shadow-md
   rounded-md
+  w-1/5
   px-2 h-9 ml-0 mr-0
   bg-gray-900
 }

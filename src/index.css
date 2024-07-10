@@ -3,26 +3,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.content-container {
-    @apply flex flex-col 
-    bg-gray-300 dark:bg-gray-700
-    m-0 
-    h-full w-full 
-    overflow-hidden;
-  }
-  .channel-bar {
-    @apply 
-    w-80 
-    h-svh 
-    m-0 
-    ml-16
-    bg-gray-200
-    dark:bg-gray-800
-     overflow-hidden;
-  }
-  .channel-container {
-    @apply flex flex-col items-center justify-start 
-    p-1 m-0;
-  }
-
- 

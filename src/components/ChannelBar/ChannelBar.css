@@ -1,53 +1,63 @@
-.channel-block{
-    @apply 
-    flex items-center justify-center
+.channel-block {
+  @apply flex items-center justify-center
     h-16 
     p-0
-    m-0
-  }
+    m-0;
+}
 
-  .channel-block-text{
-    @apply 
-    mr-auto
+.channel-block-text {
+  @apply mr-auto
     my-auto
     ml-4
     text-lg
     tracking-wider
     align-middle
-    font-bold
-  }
+    font-bold;
+}
 
-  .dropdown {
-    @apply 
-    w-full
+.dropdown {
+  @apply w-full
     px-2
-    pb-2
-  }
+    pb-2;
+}
 
-  .dropdown-header {
-    @apply
-    flex flex-row
+.dropdown-header {
+  @apply flex flex-row
     items-center
     justify-evenly
     mx-0
     cursor-pointer
-    pb-2
-  }
-  
-  .dropdown-selection{
-    @apply
+    pb-2;
+}
+
+.dropdown-selection {
+  @apply font-medium
     flex flex-row
-    
-  }
+    cursor-pointer
+    hover:text-pink-400
+    transition-all;
+}
 
-  .dropdown-header-text-selected{
-    @apply
-    text-green-500
-    font-bold
+.dropdown-header-text-selected {
+  @apply text-green-500
+    font-bold;
+}
 
-  }
+.dropdown-header-text {
+  @apply font-semibold;
+}
 
-  .dropdown-header-text{
-    @apply
-    font-semibold
-  }
+.channel-bar {
+  @apply 
+  w-80 
+  m-0 
+  ml-16
+  bg-gray-200
+  dark:bg-gray-800
+  overflow-hidden
+  h-screen
+}
+.channel-container {
+  @apply flex flex-col items-center justify-start 
+  p-1 m-0;
+}
