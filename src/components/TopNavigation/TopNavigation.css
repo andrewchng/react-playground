@@ -38,3 +38,23 @@
     cursor-pointer
     transition duration-300 ease-in-out
 }
+
+.search-bar{
+  @apply
+  flex flex-row
+  items-center  
+  shadow-md
+  rounded-md
+  px-2 h-9 ml-0 mr-0
+  bg-gray-900
+}
+
+.search-input{
+  @apply
+  rounded
+  placeholder-gray-500
+  bg-transparent
+  w-full
+  outline-none 
+  text-sm
+}

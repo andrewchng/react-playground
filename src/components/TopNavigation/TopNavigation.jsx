@@ -1,4 +1,4 @@
-import { FaBell, FaHashtag, FaSun, FaUser } from "react-icons/fa"
+import { FaBell, FaHashtag, FaSearch, FaSun, FaUser } from "react-icons/fa"
 import "./TopNavigation.css"
 
 export default function TopNavigation(){
@@ -28,13 +28,16 @@ function Title(){
 
 function DarkModeToggle(){
     return (
-        <FaSun className="top-navigation-icon" size={32}></FaSun>
+        <FaSun className="top-navigation-icon" size={26}></FaSun>
     )
 }
 
 function SearchBar(){
     return (
-        <input type="text" placeholder="Search"></input>
+        <div className="search-bar">
+            <input className="search-input" type="text" placeholder="Search..."></input>
+            <FaSearch className=""/>
+        </div>
     )
 }
 

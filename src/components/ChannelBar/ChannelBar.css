@@ -18,14 +18,36 @@
   }
 
   .dropdown {
-    @apply w-full px-2 pb-2
+    @apply 
+    w-full
+    px-2
+    pb-2
   }
 
   .dropdown-header {
     @apply
-    flex-row
-    flex items-center
+    flex flex-row
+    items-center
     justify-evenly
     mx-0
     cursor-pointer
+    pb-2
+  }
+  
+  .dropdown-selection{
+    @apply
+    flex flex-row
+    
+  }
+
+  .dropdown-header-text-selected{
+    @apply
+    text-green-500
+    font-bold
+
+  }
+
+  .dropdown-header-text{
+    @apply
+    font-semibold
   }
